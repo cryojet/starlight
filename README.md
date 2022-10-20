@@ -1,6 +1,6 @@
 # Qt Music Player
 
-Simple music player made in Qt.
+Simple music player made in Qt5
 
 ## Requierments
 * You must have Qt5 installed
