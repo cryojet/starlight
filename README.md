@@ -77,9 +77,9 @@ Of course, i do not also claim that mine is better. Their music players are a ge
 
 ### Built With
 
-* ![Termux]()
-* ![Ubuntu]()
-* ![QMake]()
+* [Termux](https://termux.dev/en/)
+* [Ubuntu](https://ubuntu.com/)
+* [QMake](https://doc.qt.io/qt-6/qmake-manual.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
