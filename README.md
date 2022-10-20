@@ -146,7 +146,7 @@ No additional arguments are needed when running from the Terminal, but I'll add 
 - [ ] MPD integration
 - [ ] ...and more
 
-See this [issue](https://github.com/nevfuxon/starlight/issue/1) for a full list of proposed features (and known issues).
+See this [issue](https://github.com/nevfuxon/starlight/issues/1) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
