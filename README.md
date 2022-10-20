@@ -35,16 +35,16 @@
   <h3 align="center">Starlight: Qt5 Music Player</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    A simple Qt5 music player reworked from [MPQt5](https://github.com/andreisergiu98/music-player-qt5)
+    
+    This also serves as my "starting point" on learning Qt5/C++ development
     <br />
     <a href="https://github.com/nevfuxon/starlight/wiki"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/nevfuxon/starlight/issues">Report Bug</a>
   </p>
 </div>
 
