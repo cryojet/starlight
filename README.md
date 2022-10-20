@@ -155,7 +155,7 @@ See this [issue](https://github.com/nevfuxon/starlight/issue/1) for a full list 
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what makes this project better. Any contributions you make are **greatly appreciated**.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -183,7 +183,7 @@ Twitter - [@veuxTW](https://twitter.com/veuxTW)
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+Acknowledging the following for this project:
 
 * [andreisergiu98/music-player-qt5](https://github.com/andreisergiu98/music-player-qt5)
 * [Cantata Music Player: for MPD integration investigation](https://github.com/CDrummond/cantata)
