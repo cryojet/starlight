@@ -18,28 +18,26 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+![ProgLang](https://img.shields.io/badge/Language-C%2B%2B-9cf?style=for-the-badge)
+![IntToolkit](https://img.shields.io/badge/Interface-Qt5-green?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/nevfuxon/starlight?color=yellow&style=for-the-badge)
+![License](https://img.shields.io/github/license/nevfuxon/starlight?color=red&style=for-the-badge)
 
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/nevfuxon/starlight">
     <img src="https://raw.githubusercontent.com/nevfuxon/starlight/extras/resc/logo.png" alt="Starlight Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Starlight: Qt5 Music Player</h3>
 
   <p align="center">
     An awesome README template to jumpstart your projects!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/nevfuxon/starlight/wiki"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
