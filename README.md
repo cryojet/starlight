@@ -62,7 +62,7 @@ This is `starlight`; a supposed-to-be revival of [MPQt5](https://github.com/andr
 
 Alongside my small projects, this is probably the most promising one out of all of them. While being terrible at first, I'll try to improve it over time :)
 
-But why? We already have better music players; like [`rhythmbox`](), or [`audacious`](), or [`juk`]()???
+But why? We already have better music players; like [`rhythmbox`](https://gitlab.gnome.org/GNOME/rhythmbox), or [`audacious`](https://github.com/audacious-media-player/audacious), or [`juk`](https://github.com/KDE/juk)???
 
 Here's why:
 * **All of them are __bloated__**. Without any X components (if you're a psychopath who loves smacking your keyboard in the TTY interface), they all cost around 150+ MBs (which is not a big deal ~~for you~~) What's worse is, the dependencies for a local or a different architecture build is twice the size than dependencies for prebuilt ones.(i disapprove `qemu-user`)
@@ -76,8 +76,6 @@ Of course, i do not also claim that mine is better. Their music players are a ge
 
 
 ### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 * ![Termux]()
 * ![Ubuntu]()
