@@ -83,7 +83,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![SQt5 Preview][starlight v0.1 screenshot]](https://raw.githubusercontent.com/nevfuxon/starlight/extras/resc/screenshot.png)
+![SQt5 Preview](https://raw.githubusercontent.com/nevfuxon/starlight/extras/resc/screenshot.png)
 
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
