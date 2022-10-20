@@ -1,31 +1,8 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 ![ProgLang](https://img.shields.io/badge/Language-C%2B%2B-9cf?style=for-the-badge)
 ![IntToolkit](https://img.shields.io/badge/Interface-Qt5-green?style=for-the-badge)
 ![Issues](https://img.shields.io/github/issues/nevfuxon/starlight?color=yellow&style=for-the-badge)
 ![License](https://img.shields.io/github/license/nevfuxon/starlight?color=red&style=for-the-badge)
-
-
-
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/nevfuxon/starlight">
@@ -35,14 +12,12 @@
   <h3 align="center">Starlight: Qt5 Music Player</h3>
 
   <p align="center">
-    A simple Qt5 music player reworked from [MPQt5](https://github.com/andreisergiu98/music-player-qt5)
-    
-    This also serves as my "starting point" on learning Qt5/C++ development
+    A simple Qt5 music player reworked from <a href="https://github.com/andreisergiu98/music-player-qt5">MPQt5</a>
     <br />
     <a href="https://github.com/nevfuxon/starlight/wiki"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://raw.githubusercontent.com/nevfuxon/starlight/extras/resc/logo.png">View Demo</a>
     ·
     <a href="https://github.com/nevfuxon/starlight/issues">Report Bug</a>
   </p>
@@ -83,16 +58,18 @@
 
 ![SQt5 Preview](https://raw.githubusercontent.com/nevfuxon/starlight/extras/resc/screenshot.png)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+This is `starlight`; a supposed-to-be revival of [MPQt5](https://github.com/andreisergiu98/music-player-qt5) and is also my starting point on Qt5/C++ programming.
+
+Alongside my small projects, this is probably the most promising one out of all of them. While being terrible at first, I'll try to improve it over time :)
+
+But why? We already have better music players; like [`rhythmbox`](), or [`audacious`](), or [`juk`]()???
 
 Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+* **All of them are __bloated__**. Without any X components (if you're a psychopath who loves smacking your keyboard in the TTY interface), they all cost around 150+ MBs (which is not a big deal ~~for you~~) What's worse is, the dependencies for a local or a different architecture build is twice the size than dependencies for prebuilt ones.(i disapprove `qemu-user`)
+* **Crumpled source files that even you can't make your own out of them**. For professionals, this is not a problem for them at all since there's a guide(that only they can understand, too), but for simpletons... oh well.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+Of course, i do not also claim that mine is better. Their music players are a generation ahead of mine and is also the same time, their interface is also as twice as better than a blunt-looking player like mine.
 
-Use the `BLANK_README.md` to get started.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -102,14 +79,9 @@ Use the `BLANK_README.md` to get started.
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* ![Termux]()
+* ![Ubuntu]()
+* ![QMake]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,33 +90,36 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Since I did not have setup the workflow for this repository for an automated build, you'll have to build the package yourself for now.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+Get dependencies
+* GCC, Make, and Git
   ```sh
-  npm install npm@latest -g
+  sudo apt-get install gcc g++ gdb cmake make build-essential git
+  ```
+* Qt5 (including dependencies for `multimedia5`)
+  ```
+  sudo apt-get install qtbase5-dev qtdeclarative5-dev qt5-doc qt5-doc-html qtbase5-doc-html qtbase5-examples qtmultimedia5-dev libqt5multimediawidgets5 libqt5multimedia5-plugins libqt5multimedia5
   ```
 
 ### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repository
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/nevfuxon/starlight
    ```
-3. Install NPM packages
+2. Change to source directory
    ```sh
-   npm install
+   cd starlight/src
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+3. Generate makefile and build the binary
+   ```sh
+   qmake;make
+   ```
+4. Test run if it works:
+   ```sh
+   ./QtMusicPlayer
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -154,9 +129,7 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+No additional arguments are needed when running from the Terminal, but I'll add some. Someday.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -165,15 +138,17 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
+- [x] redo README
+- [x] Refactor source files
+- [ ] Add optional arguments for running in terminal
+- [ ] Revamp user interface 
 - [ ] Multi-language Support
     - [ ] Chinese
     - [ ] Spanish
+- [ ] MPD integration
+- [ ] ...and more
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See this [issue](https://github.com/nevfuxon/starlight/issue/1) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -184,14 +159,6 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -200,7 +167,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -209,9 +176,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Twitter - [@veuxTW](https://twitter.com/veuxTW)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -222,47 +187,10 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
+* [andreisergiu98/music-player-qt5](https://github.com/andreisergiu98/music-player-qt5)
+* [Cantata Music Player: for MPD integration investigation](https://github.com/CDrummond/cantata)
+* [Qt5 Toolkit](https://www.qt.io/)
 * [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+* [the entirety of the MIT license](https://opensource.org/licenses/MIT)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
