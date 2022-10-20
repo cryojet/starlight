@@ -1,0 +1,25 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Get dependencies
+      run: sudo apt-get install qtbase5-dev qtdeclarative5-dev qt5-doc qt5-doc-html qtbase5-doc-html qtbase5-examples qtmultimedia5-dev libqt5multimediawidgets5 libqt5multimedia5-plugins libqt5multimedia5 gcc g++ gdb cmake make build-essential git
+    - name: Clone repository, CD to src
+      run: git clone https://github.com/nevfuxon/starlight;cd starlight/src
+    - name: make
+      run: qmake;make
+    - name: make check
+      run: make check
+    - name: make distcheck
+      run: make distcheck
