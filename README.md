@@ -188,6 +188,7 @@ Acknowledging the following for this project:
 * [andreisergiu98/music-player-qt5](https://github.com/andreisergiu98/music-player-qt5)
 * [Cantata Music Player: for MPD integration investigation](https://github.com/CDrummond/cantata)
 * [Qt5 Toolkit](https://www.qt.io/)
+* [FFMPeG wrapper for QT](https://code.google.com/archive/p/qtffmpegwrapper/)
 * [GitHub Pages](https://pages.github.com)
 * [the entirety of the MIT license](https://opensource.org/licenses/MIT)
 
