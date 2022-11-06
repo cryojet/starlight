@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>936</width>
-    <height>534</height>
+    <width>810</width>
+    <height>491</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -17,7 +17,7 @@
    </sizepolicy>
   </property>
   <property name="windowTitle">
-   <string>Starlight - v1.0_dev</string>
+   <string>Starlight – v0.1.1-ui_ref</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <property name="sizePolicy">
@@ -29,9 +29,9 @@
    <widget class="QSlider" name="seekBar">
     <property name="geometry">
      <rect>
-      <x>8</x>
-      <y>475</y>
-      <width>921</width>
+      <x>10</x>
+      <y>340</y>
+      <width>351</width>
       <height>20</height>
      </rect>
     </property>
@@ -54,8 +54,8 @@
    <widget class="QPushButton" name="back">
     <property name="geometry">
      <rect>
-      <x>398</x>
-      <y>495</y>
+      <x>110</x>
+      <y>370</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -70,14 +70,17 @@
    <widget class="QPushButton" name="play">
     <property name="geometry">
      <rect>
-      <x>448</x>
-      <y>495</y>
+      <x>170</x>
+      <y>370</y>
       <width>41</width>
-      <height>31</height>
+      <height>41</height>
      </rect>
     </property>
     <property name="focusPolicy">
      <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Play/Pause&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Plays or pauses the current playing song&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="text">
      <string>O</string>
@@ -86,14 +89,14 @@
      <bool>true</bool>
     </property>
     <property name="checked">
-     <bool>true</bool>
+     <bool>false</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="forward">
     <property name="geometry">
      <rect>
-      <x>497</x>
-      <y>495</y>
+      <x>230</x>
+      <y>370</y>
       <width>41</width>
       <height>31</height>
      </rect>
@@ -108,42 +111,42 @@
    <widget class="QPushButton" name="add">
     <property name="geometry">
      <rect>
-      <x>840</x>
-      <y>500</y>
-      <width>41</width>
-      <height>21</height>
+      <x>320</x>
+      <y>10</y>
+      <width>51</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="focusPolicy">
      <enum>Qt::NoFocus</enum>
     </property>
     <property name="text">
-     <string>+</string>
+     <string>Add</string>
     </property>
    </widget>
    <widget class="QPushButton" name="remove">
     <property name="geometry">
      <rect>
-      <x>770</x>
-      <y>500</y>
-      <width>41</width>
-      <height>21</height>
+      <x>200</x>
+      <y>10</y>
+      <width>51</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="focusPolicy">
      <enum>Qt::NoFocus</enum>
     </property>
     <property name="text">
-     <string>-</string>
+     <string>Rmov</string>
     </property>
    </widget>
    <widget class="QPushButton" name="save">
     <property name="geometry">
      <rect>
-      <x>700</x>
-      <y>500</y>
-      <width>41</width>
-      <height>21</height>
+      <x>260</x>
+      <y>10</y>
+      <width>51</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="focusPolicy">
@@ -165,14 +168,14 @@
    <widget class="QLabel" name="currentSong">
     <property name="geometry">
      <rect>
-      <x>148</x>
-      <y>460</y>
-      <width>641</width>
-      <height>20</height>
+      <x>10</x>
+      <y>289</y>
+      <width>361</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="text">
-     <string>Song</string>
+     <string>File</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -181,10 +184,10 @@
    <widget class="QListWidget" name="listWidget">
     <property name="geometry">
      <rect>
-      <x>8</x>
+      <x>380</x>
       <y>50</y>
-      <width>921</width>
-      <height>401</height>
+      <width>421</width>
+      <height>431</height>
      </rect>
     </property>
     <property name="focusPolicy">
@@ -212,9 +215,9 @@
    <widget class="QPushButton" name="repeat">
     <property name="geometry">
      <rect>
-      <x>570</x>
-      <y>500</y>
-      <width>41</width>
+      <x>280</x>
+      <y>370</y>
+      <width>51</width>
       <height>21</height>
      </rect>
     </property>
@@ -222,7 +225,7 @@
      <enum>Qt::NoFocus</enum>
     </property>
     <property name="text">
-     <string>r</string>
+     <string>rpt</string>
     </property>
     <property name="checkable">
      <bool>true</bool>
@@ -231,9 +234,9 @@
    <widget class="QPushButton" name="shuffle">
     <property name="geometry">
      <rect>
-      <x>325</x>
-      <y>500</y>
-      <width>41</width>
+      <x>50</x>
+      <y>370</y>
+      <width>51</width>
       <height>21</height>
      </rect>
     </property>
@@ -241,7 +244,7 @@
      <enum>Qt::NoFocus</enum>
     </property>
     <property name="text">
-     <string>s</string>
+     <string>shfl</string>
     </property>
     <property name="checkable">
      <bool>true</bool>
@@ -250,10 +253,10 @@
    <widget class="QSlider" name="volumeBar">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>503</y>
-      <width>181</width>
-      <height>16</height>
+      <x>30</x>
+      <y>450</y>
+      <width>201</width>
+      <height>20</height>
      </rect>
     </property>
     <property name="focusPolicy">
@@ -278,17 +281,17 @@
    <widget class="QPushButton" name="mute">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>500</y>
-      <width>41</width>
-      <height>21</height>
+      <x>240</x>
+      <y>430</y>
+      <width>111</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="focusPolicy">
      <enum>Qt::NoFocus</enum>
     </property>
     <property name="text">
-     <string>m</string>
+     <string>Mute</string>
     </property>
     <property name="checkable">
      <bool>true</bool>
@@ -306,9 +309,9 @@
    <widget class="QLineEdit" name="searchBar">
     <property name="geometry">
      <rect>
-      <x>8</x>
+      <x>380</x>
       <y>10</y>
-      <width>921</width>
+      <width>421</width>
       <height>28</height>
      </rect>
     </property>
@@ -318,13 +321,51 @@
     <property name="mouseTracking">
      <bool>false</bool>
     </property>
+    <property name="whatsThis">
+     <string>Search for files in queue</string>
+    </property>
     <property name="cursorPosition">
      <number>0</number>
     </property>
     <property name="readOnly">
      <bool>false</bool>
     </property>
+    <property name="placeholderText">
+     <string>Search...</string>
+    </property>
    </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>420</y>
+      <width>351</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'DejaVu LGC Sans'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; &lt;span style=&quot; font-size:9pt;&quot;&gt;Volume&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <zorder>textEdit</zorder>
+   <zorder>seekBar</zorder>
+   <zorder>back</zorder>
+   <zorder>play</zorder>
+   <zorder>forward</zorder>
+   <zorder>add</zorder>
+   <zorder>remove</zorder>
+   <zorder>save</zorder>
+   <zorder>currentSong</zorder>
+   <zorder>listWidget</zorder>
+   <zorder>repeat</zorder>
+   <zorder>shuffle</zorder>
+   <zorder>volumeBar</zorder>
+   <zorder>mute</zorder>
+   <zorder>searchBar</zorder>
   </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
