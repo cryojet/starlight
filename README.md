@@ -56,7 +56,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![SQt5 Preview](https://raw.githubusercontent.com/nevfuxon/starlight/extras/resc/screenshot.png)
+![SQt5 Preview](https://user-images.githubusercontent.com/83752061/200165308-92e3715d-c903-4a1d-ab48-1a914dba8a0e.png)
 
 This is `starlight`; a supposed-to-be revival of [MPQt5](https://github.com/andreisergiu98/music-player-qt5) and is also my starting point on Qt5/C++ programming.
 
