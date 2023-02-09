@@ -9,17 +9,17 @@
     <img src="https://raw.githubusercontent.com/nevfuxon/starlight/extras/resc/logo.png" alt="Starlight Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Starlight: Qt5 Music Player</h3>
+  <h3 align="center">Dynastix: Qt5 Music Player</h3>
 
   <p align="center">
     A simple Qt5 music player reworked from <a href="https://github.com/andreisergiu98/music-player-qt5">MPQt5</a>
     <br />
-    <a href="https://github.com/nevfuxon/starlight/wiki"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/revoscode/dynastix/wiki"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://raw.githubusercontent.com/nevfuxon/starlight/extras/resc/logo.png">View Demo</a>
+    <a href="https://raw.githubusercontent.com/revoscode/dynastix/extras/resc/logo.png">View Demo</a>
     ·
-    <a href="https://github.com/nevfuxon/starlight/issues">Report Bug</a>
+    <a href="https://github.com/revoscode/dynastix/issues">Report Bug</a>
   </p>
 </div>
 
@@ -99,17 +99,17 @@ Get dependencies
   ```
 * Qt5 (including dependencies for `multimedia5`)
   ```
-  sudo apt-get install qtbase5-dev qtdeclarative5-dev qt5-doc qt5-doc-html qtbase5-doc-html qtbase5-examples qtmultimedia5-dev libqt5multimediawidgets5 libqt5multimedia5-plugins libqt5multimedia5
+  sudo apt-get install qtbase5-dev qtdeclarative5-dev qtmultimedia5-dev libqt5multimediawidgets5 libqt5multimedia5-plugins libqt5multimedia5
   ```
 
 ### Installation
 1. Clone the repository
    ```sh
-   git clone https://github.com/nevfuxon/starlight
+   git clone https://github.com/revoscode/dynastix
    ```
 2. Change to source directory
    ```sh
-   cd starlight/src
+   cd dynastix/src
    ```
 3. Generate makefile and build the binary
    ```sh
