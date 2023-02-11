@@ -18,7 +18,7 @@ MainWindow::MainWindow(QWidget *parent) :
 
     connect(updater, SIGNAL(timeout()), this, SLOT(update()));
 
-    player->setVolume(100);
+    player->setVolume(80);
 
     ui->listWidget->setCurrentRow(0);
 
