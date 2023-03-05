@@ -101,6 +101,7 @@ Get dependencies
   ```
   sudo apt-get install qtbase5-dev qtdeclarative5-dev qtmultimedia5-dev libqt5multimediawidgets5 libqt5multimedia5-plugins libqt5multimedia5
   ```
+On source version 0.2 or newer, the project is being rebased to the Vvave project.
 
 ### Installation
 1. Clone the repository
