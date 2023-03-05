@@ -65,11 +65,7 @@ Alongside my small projects, this is probably the most promising one out of all 
 But why? We already have better music players; like [`rhythmbox`](https://gitlab.gnome.org/GNOME/rhythmbox), or [`audacious`](https://github.com/audacious-media-player/audacious), or [`juk`](https://github.com/KDE/juk)???
 
 Here's why:
-* **All of them are __bloated__**. Without any X components (if you're a psychopath who loves smacking your keyboard in the TTY interface), they all cost around 150+ MBs (which is not a big deal ~~for you~~) What's worse is, the dependencies for a local or a different architecture build is twice the size than dependencies for prebuilt ones.(i disapprove `qemu-user`)
-* **Crumpled source files that even you can't make your own out of them**. For professionals, this is not a problem for them at all since there's a guide(that only they can understand, too), but for simpletons... oh well.
-
-Of course, i do not also claim that mine is better. Their music players are a generation ahead of mine and is also the same time, their interface is also as twice as better than a blunt-looking player like mine.
-
+* Boredom.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,7 +100,7 @@ Get dependencies
 On source version 0.2 or newer, the project is being rebased to the Vvave project
 * QT: websockets, KConfigCore, KNotifications, KI18n, and webenginewidgets
   ```
-  sudo apt-get install libkf5i18n-dev libqt5webenginewidgets5 libkf5notifications-dev libkf5config-dev libqt5websockets5-dev
+  sudo apt-get install libkf5i18n-dev libqt5webenginewidgets5 libkf5notifications-dev libkf5config-dev libqt5websockets5-dev libtagc0-dev
   ```
 
 
