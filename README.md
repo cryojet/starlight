@@ -98,7 +98,7 @@ Get dependencies
   sudo apt-get install qtbase5-dev qtdeclarative5-dev qtmultimedia5-dev libqt5multimediawidgets5 libqt5multimedia5-plugins libqt5multimedia5 qtwebengine5-dev
   ```
 On source version 0.2 or newer, the project is being rebased to the Vvave project
-* QT: websockets, KConfigCore, KNotifications, KI18n, and webenginewidgets
+* QT: websockets, KConfigCore, KNotifications, KI18n, webenginewidgets (extra: taglib)
   ```
   sudo apt-get install libkf5i18n-dev libqt5webenginewidgets5 libkf5notifications-dev libkf5config-dev libqt5websockets5-dev libtagc0-dev
   ```
